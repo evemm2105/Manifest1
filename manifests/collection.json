@@ -1,0 +1,13 @@
+{
+  "id" : "https://evemm2105.github.io/Manifest1/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in evemm2105/Manifest1 project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://evemm2105.github.io/Manifest1/manifests/mymanifest2.json",
+    "label" : "Lovely cats in the box"
+  } ]
+}
