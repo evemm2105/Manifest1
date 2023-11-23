@@ -1,0 +1,75 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://evemm2105.github.io/Manifest1/manifests/mymanifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Lovely cats in the box",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "an example manifest with silly images",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Maria",
+  "sequences" : [ {
+    "@id" : "http://fb939b87-0f0c-429e-af1e-095e1170312b",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://38e0080f-2106-4685-82db-fa2c452a9758",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 5772,
+      "width" : 3848,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://b3237d57-1a9a-43e6-95eb-3c0986227c1f",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/tai-ngo-mJsQ8Xhu8UU-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/tai-ngo-mJsQ8Xhu8UU-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 5772,
+          "width" : 3848
+        },
+        "on" : "http://38e0080f-2106-4685-82db-fa2c452a9758"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://cb7eb3c7-b562-4580-94ac-5bd7efd869c6",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 4608,
+      "width" : 3073,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://8a7d9cfe-0254-4b88-9e14-a0b220a198b9",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/anne-laure-p-ltIRbwm7j4E-unsplash/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/anne-laure-p-ltIRbwm7j4E-unsplash",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4608,
+          "width" : 3073
+        },
+        "on" : "http://cb7eb3c7-b562-4580-94ac-5bd7efd869c6"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
